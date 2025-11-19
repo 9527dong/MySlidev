@@ -6,7 +6,8 @@ Slides & code for my talks, using [Slidev](https://github.com/slidevjs/slidev)!
 
 ###### 2025
 
- - `zh` [AI 编程分享：让 AI 成为你的结对程序员](./2025-11-14-ai-coding) - 从理念到实践的 AI 编码流程
+- `zh` [PET 3.0：产品执行飞轮模板](./2025-11-18-pet-3-0) - 可直接编辑的 PPT 模板
+- `zh` [AI 编程分享：让 AI 成为你的结对程序员](./2025-11-14-ai-coding) - 从理念到实践的 AI 编码流程
 
 ### Development
 

@@ -114,6 +114,21 @@ importers:
         specifier: ^3.4.0
         version: 3.4.34(typescript@5.5.4)
 
+  2025-11-18-pet-3-0/src:
+    dependencies:
+      '@slidev/theme-default':
+        specifier: ^0.25.0
+        version: 0.25.0
+      '@slidev/theme-seriph':
+        specifier: ^0.25.0
+        version: 0.25.0
+      seedrandom:
+        specifier: ^3.0.5
+        version: 3.0.5
+      vue:
+        specifier: ^3.4.0
+        version: 3.4.34(typescript@5.5.4)
+
 packages:
 
   '@ampproject/remapping@2.3.0':
