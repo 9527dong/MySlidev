@@ -80,7 +80,7 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
 
 ```mermaid
 graph LR
-    A[元数据] -.-> B[项目创建] --> C[BRD录入] --> D[Epic拆解]
+    A[元数据] -.-> B[项目创建] --> C[BRD录入] --> D[Epic录入]
     D --> E[工时估算]
     E --> F[OGM估算]
     F --> G[报表生成]
@@ -90,6 +90,12 @@ graph LR
 
 </div>
 
+<div class="mt-2 text-center">
+  <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-bold mr-2">🤖 AI 加持</span>
+  <span class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold">⚙️ 规则引擎</span>
+  <span class="text-gray-400 ml-2 text-xs">← 核心创新点</span>
+</div>
+
 <div style="font-size: 0.65rem;">
 
 | 环节 | 📋 当前方式 | 🚀 PET 3.0 | 核心提升 |
@@ -97,18 +103,13 @@ graph LR
 | 元数据 | Excel 分散维护，无权限 | 管理员统一配置，全局生效 | 集中管控 |
 | 项目管理 | SmartSheet 多平台 | 统一平台，一站式管理 | 平台统一 |
 | BRD 录入 | Excel 手动维护 | 系统结构化录入 | 数据结构化 |
-| **Epic 录入** | 人工逐条录入 | **🤖 AI 智能拆解，PM 仅需 Review** | **AI 自动化** |
+| **Epic 录入** | 人工逐条录入 | **🤖 AI 智能生成，PM 仅需 Review** | **AI 自动化** |
 | **工时估算** | 拍脑袋，Excel 手算 | **⚙️ 公式引擎自动计算** | **规则引擎** |
 | OGM 估算 | Excel 手工填写 | 表单化填写，体验友好 | 体验提升 |
 | 报表生成 | 透视表，样式简陋 | 实时生成，可视化报表 | 实时可视化 |
 
 </div>
 
-<div class="mt-2 text-center">
-  <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-bold mr-2">🤖 AI 加持</span>
-  <span class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold">⚙️ 规则引擎</span>
-  <span class="text-gray-400 ml-2 text-xs">← 核心创新点</span>
-</div>
 
 ---
 
@@ -430,8 +431,8 @@ epic_estimations (
 <div class="border rounded-lg p-4">
   <div class="text-3xl mb-2">👨‍🎨</div>
   <div class="font-bold">Groot Zhang</div>
-  <div class="text-sm text-gray-500">QA</div>
-  <div class="text-xs mt-2 text-purple-600">功能测试</div>
+  <div class="text-sm text-gray-500">Technical support</div>
+  <div class="text-xs mt-2 text-purple-600">提供专业建议</div>
 </div>
 
 </div>
