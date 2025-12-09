@@ -2,11 +2,11 @@
 theme: default
 lineNumbers: false
 mdc: true
-title: PET 3.0 - AI 驱动的智能项目估算平台
+title: PET 3.0 - 智能项目估算平台
 subtitle: 用结构化数据 + AI 重塑项目估算体验
 ---
 
-# PET 3.0 - AI 驱动的智能项目估算平台
+# PET 3.0 - 智能项目估算平台
 
 <div class="mt-6 text-lg text-blue-600 font-semibold">核心价值：让每一次项目估算都有据可循、有迹可查、降本增效</div>
 
@@ -26,21 +26,22 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
 
 ### 🤖 技术方案 (3分钟)
 
-3. AI Epic生成技术架构
-4. Cost Breakdown功能技术原理
+3. 技术栈 & 整体架构概览
+4. AI Epic生成技术架构
+5. Cost Breakdown功能技术原理
 
 </div>
 <div>
 
 ### 🚀 演示效果 (4分钟)
 
-5. Live Demo
-6. 功能完成度展示
+6. Live Demo
+7. 功能完成度展示
 
 ### 👥 团队与Q&A (1分钟)
 
-7. 团队分工
-8. Q&A
+8. 团队分工
+9. Q&A
 
 </div>
 </div>
@@ -110,6 +111,63 @@ graph LR
 
 </div>
 
+---
+
+# 🏗️ 技术栈 & 整体架构概览
+
+<div class="grid grid-cols-5 gap-6 items-start" style="font-size: 0.82rem;">
+<div class="col-span-2 space-y-4">
+
+  <div class="rounded-xl border border-slate-200 bg-slate-50/70 p-4 shadow-sm">
+    <div class="flex items-center gap-2 text-lg font-bold text-slate-900">
+      🛠️ 技术栈
+    </div>
+    <ul class="list-disc pl-5 text-sm text-gray-700 leading-relaxed mt-2 space-y-1">
+      <li><span class="font-semibold text-slate-900">前端：</span>React + TypeScript + Tailwind</li>
+      <li><span class="font-semibold text-slate-900">后端：</span>Node.js (Next.js API Routes) + PostgreSQL</li>
+      <li><span class="font-semibold text-slate-900">运维：</span>Github + Vercel 自动部署</li>
+    </ul>
+  </div>
+
+  <div class="rounded-xl border border-purple-200 bg-purple-50/70 p-4 shadow-sm">
+    <div class="flex items-center gap-2 text-lg font-bold text-purple-800">
+      🤖 AI 能力
+    </div>
+    <ul class="list-disc pl-5 text-sm text-gray-700 leading-relaxed mt-2 space-y-1">
+      <li>DeepSeek API（JSON Mode）</li>
+      <li>AI Coding 助手：<span class="font-semibold text-purple-800">Cursor、Codex</span> 提升研发效率</li>
+    </ul>
+  </div>
+
+</div>
+<div class="col-span-3">
+
+### 整体架构
+
+<div class="flex flex-col items-center gap-2 mt-2">
+  <div class="w-full bg-blue-50 border border-blue-300 rounded-lg p-2">
+    <div class="text-blue-700 font-bold text-sm text-center">🖥️ 客户端</div>
+    <div class="text-xs text-gray-600 mt-1 text-center">表单渲染 · 结果展示 · 可视化报表</div>
+  </div>
+  <div class="text-blue-400 text-xl">↓</div>
+  <div class="w-full bg-amber-50 border border-amber-300 rounded-lg p-2">
+    <div class="text-amber-700 font-bold text-sm text-center">⚙️ 服务端</div>
+    <div class="text-xs text-gray-600 mt-1 text-center">Server API  · 元数据配置 · 规则引擎等</div>
+  </div>
+  <div class="text-amber-400 text-xl">↓</div>
+  <div class="w-full bg-purple-50 border border-purple-300 rounded-lg p-2">
+    <div class="text-purple-700 font-bold text-sm text-center">🧠 AI 层</div>
+    <div class="text-xs text-gray-600 mt-1 text-center">DeepSeek API(Epic 生成)</div>
+  </div>
+  <div class="text-purple-400 text-xl">↓</div>
+  <div class="w-full bg-green-50 border border-green-300 rounded-lg p-2">
+    <div class="text-green-700 font-bold text-sm text-center">💾 存储层</div>
+    <div class="text-xs text-gray-600 mt-1 text-center">PostgreSQL（角色/模板/公式/常量/估算记录等）</div>
+  </div>
+</div>
+
+</div>
+</div>
 
 ---
 
