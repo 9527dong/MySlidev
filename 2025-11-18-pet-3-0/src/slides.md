@@ -54,10 +54,10 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
 
 | 维度 | 🔥 传统痛点 | ✅ PET 3.0 方案 |
 | :--- | :--- | :--- |
-| **数据管理** | Excel/邮件/Smartsheet 分散，历史难追溯 | 统一平台，项目全生命周期可追踪 |
+| **效率** | Epic 拆分 xx 天，工时计算靠手算 | AI 生成 Epic **分钟级**，公式引擎**秒级计算** |
 | **估算一致性** | 拍脑袋估算，估算偏差大 | 标准化模板 + 统一费率，口径一致 |
 | **解释成本** | "50人天怎么来的？" —— 没人说得清 | 公式引擎逐行计算，**每一步可解释** |
-| **效率** | Epic 拆分 xx 天，工时计算靠手算 | AI 生成 Epic **分钟级**，公式引擎**秒级计算** |
+| **数据管理** | Excel/邮件/Smartsheet 分散，历史难追溯 | 统一平台，项目全生命周期可追踪 |
 
 </div>
 
@@ -77,65 +77,69 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
 
 # 🎯 业务场景：项目成本估算全链路
 
-<div class="text-center mb-4">
-
-```mermaid
-graph LR
-    A[元数据] -.-> B[项目创建] --> C[BRD录入] --> D[Epic录入]
-    D --> E[工时估算]
-    E --> F[OGM估算]
-    F --> G[报表生成]
-    style D fill:#a855f7,stroke:#333,stroke-width:2px,color:#fff
-    style E fill:#ff6b6b,stroke:#333,stroke-width:2px,color:#fff
-```
-
-</div>
-
-<div class="mt-2 text-center">
-  <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-bold mr-2">🤖 AI 加持</span>
-  <span class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold">⚙️ 规则引擎</span>
-  <span class="text-gray-400 ml-2 text-xs">← 核心创新点</span>
+<div class="mt-2">
+  <!-- 流程图 - 使用 items-start 让所有框顶部对齐 -->
+  <div class="flex items-start justify-center gap-1 text-sm">
+    <div class="px-3 py-2 border border-gray-300 rounded bg-white mt-0">元数据</div>
+    <span class="text-gray-400 text-xs mt-3">····▶</span>
+    <div class="px-3 py-2 border border-gray-300 rounded bg-white">项目创建</div>
+    <span class="text-gray-400 mt-3">→</span>
+    <div class="px-3 py-2 border border-gray-300 rounded bg-white">BRD录入</div>
+    <span class="text-gray-400 mt-3">→</span>
+    <!-- Epic录入 - 带连接线和标签 -->
+    <div class="flex flex-col items-center">
+      <div class="px-4 py-2 border-2 border-purple-500 rounded bg-purple-500 text-white font-bold">Epic录入</div>
+      <div class="w-0.5 h-4 border-l-2 border-dashed border-purple-400"></div>
+      <div class="flex items-center gap-1">
+        <div class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-bold border border-purple-300">🤖 AI 智能生成</div>
+      </div>
+    </div>
+    <span class="text-gray-400 mt-3">→</span>
+    <!-- 工时估算 - 带连接线和标签 -->
+    <div class="flex flex-col items-center">
+      <div class="px-4 py-2 border-2 border-red-400 rounded bg-red-400 text-white font-bold">工时估算</div>
+      <div class="w-0.5 h-4 border-l-2 border-dashed border-red-400"></div>
+      <div class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold border border-red-300">⚙️ 公式引擎自动计算</div>
+    </div>
+    <span class="text-gray-400 mt-3">→</span>
+    <div class="px-3 py-2 border border-gray-300 rounded bg-white">OGM估算</div>
+    <span class="text-gray-400 mt-3">→</span>
+    <div class="px-3 py-2 border border-gray-300 rounded bg-white">报表生成</div>
+  </div>
 </div>
 
 <div style="font-size: 0.65rem;">
 
 | 环节 | 📋 当前方式 | 🚀 PET 3.0 | 核心提升 |
 | :---: | :--- | :--- | :--- |
-| 元数据 | Excel 分散维护，无权限 | 管理员统一配置，全局生效 | 集中管控 |
 | 项目管理 | SmartSheet 多平台 | 统一平台，一站式管理 | 平台统一 |
 | BRD 录入 | Excel 手动维护 | 系统结构化录入 | 数据结构化 |
-| **Epic 录入** | 人工逐条录入 | **🤖 AI 智能生成，PM 仅需 Review** | **AI 自动化** |
-| **工时估算** | 拍脑袋，Excel 手算 | **⚙️ 公式引擎自动计算** | **规则引擎** |
+| **Epic 录入** | 人工逐条录入 | **🤖 AI 智能生成，PM 仅需 Review** | **效率提升** |
+| **工时估算** | 拍脑袋，Excel 手算 | **⚙️ 公式引擎自动计算** | **效率、一致性提升** |
 | OGM 估算 | Excel 手工填写 | 表单化填写，体验友好 | 体验提升 |
-| 报表生成 | 透视表，样式简陋 | 实时生成，可视化报表 | 实时可视化 |
 
 </div>
 
 ---
 
-# 🏗️ 技术栈 & 整体架构概览
+# 🏗️ 整体架构概览
 
-<div class="grid grid-cols-5 gap-6 items-start" style="font-size: 0.82rem;">
-<div class="col-span-2 space-y-4">
+<div class="grid grid-cols-5 gap-6 items-center mt-6" style="font-size: 0.82rem;">
+<div class="col-span-2 flex items-center justify-center">
 
-  <div class="rounded-xl border border-slate-200 bg-slate-50/70 p-4 shadow-sm">
-    <div class="flex items-center gap-2 text-lg font-bold text-slate-900">
-      🛠️ 技术栈
-    </div>
-    <ul class="list-disc pl-5 text-sm text-gray-700 leading-relaxed mt-2 space-y-1">
-      <li><span class="font-semibold text-slate-900">前端：</span>React + TypeScript + Tailwind</li>
-      <li><span class="font-semibold text-slate-900">后端：</span>Node.js (Next.js API Routes) + PostgreSQL</li>
-      <li><span class="font-semibold text-slate-900">运维：</span>Github + Vercel 自动部署</li>
-    </ul>
-  </div>
-
-  <div class="rounded-xl border border-purple-200 bg-purple-50/70 p-4 shadow-sm">
-    <div class="flex items-center gap-2 text-lg font-bold text-purple-800">
+  <div class="rounded-2xl border-2 border-purple-300 bg-gradient-to-br from-purple-50 to-purple-100/70 p-6 shadow-lg w-full">
+    <div class="flex gap-2 text-xl font-bold text-purple-800 mb-4">
       🤖 AI 能力
     </div>
-    <ul class="list-disc pl-5 text-sm text-gray-700 leading-relaxed mt-2 space-y-1">
-      <li>DeepSeek API（JSON Mode）</li>
-      <li>AI Coding 助手：<span class="font-semibold text-purple-800">Cursor、Codex</span> 提升研发效率</li>
+    <ul class="space-y-3 text-sm text-gray-700">
+      <li class="flex items-start gap-2">
+        <span class="text-purple-500 mt-0.5">●</span>
+        <span><span class="font-semibold text-purple-800">DeepSeek API</span>（JSON Mode）智能生成 Epic</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="text-purple-500 mt-0.5">●</span>
+        <span><span class="font-semibold text-purple-800">AI Coding 助手</span>：Cursor、Codex 提升研发效率</span>
+      </li>
     </ul>
   </div>
 
@@ -152,17 +156,23 @@ graph LR
   <div class="text-blue-400 text-xl">↓</div>
   <div class="w-full bg-amber-50 border border-amber-300 rounded-lg p-2">
     <div class="text-amber-700 font-bold text-sm text-center">⚙️ 服务端</div>
-    <div class="text-xs text-gray-600 mt-1 text-center">Server API  · 元数据配置 · 规则引擎等</div>
+    <div class="text-xs text-gray-600 mt-1 text-center">Server API · 元数据配置 · 规则引擎等</div>
   </div>
-  <div class="text-amber-400 text-xl">↓</div>
-  <div class="w-full bg-purple-50 border border-purple-300 rounded-lg p-2">
-    <div class="text-purple-700 font-bold text-sm text-center">🧠 AI 层</div>
-    <div class="text-xs text-gray-600 mt-1 text-center">DeepSeek API(Epic 生成)</div>
+  <!-- 两个箭头分别指向 AI 层和存储层 -->
+  <div class="w-full flex justify-around text-amber-400 text-xl">
+    <span>↓</span>
+    <span>↓</span>
   </div>
-  <div class="text-purple-400 text-xl">↓</div>
-  <div class="w-full bg-green-50 border border-green-300 rounded-lg p-2">
-    <div class="text-green-700 font-bold text-sm text-center">💾 存储层</div>
-    <div class="text-xs text-gray-600 mt-1 text-center">PostgreSQL（角色/模板/公式/常量/估算记录等）</div>
+  <!-- AI 层和存储层并排 -->
+  <div class="w-full flex gap-2">
+    <div class="flex-1 bg-purple-50 border border-purple-300 rounded-lg p-2">
+      <div class="text-purple-700 font-bold text-sm text-center">🧠 AI 层</div>
+      <div class="text-xs text-gray-600 mt-1 text-center">DeepSeek API (Epic 生成)</div>
+    </div>
+    <div class="flex-1 bg-green-50 border border-green-300 rounded-lg p-2">
+      <div class="text-green-700 font-bold text-sm text-center">💾 存储层</div>
+      <div class="text-xs text-gray-600 mt-1 text-center">PostgreSQL（角色/模板/公式/常量等）</div>
+    </div>
   </div>
 </div>
 
