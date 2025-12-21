@@ -8,7 +8,7 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
 
 # PET 3.0 - 智能项目估算平台
 
-<div class="mt-6 text-lg text-blue-600 font-semibold">核心价值：让每一次项目估算都有据可循、有迹可查、降本增效</div>
+<div class="mt-6 text-lg text-blue-600 font-semibold">核心价值：让每一次项目估算都做到标准化、高效率</div>
 
 <div class="mt-8 text-sm text-gray-500">PET 团队 · Dong Wang</div>
 
@@ -27,21 +27,20 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
 ### 🤖 技术方案 (3分钟)
 
 3. 技术栈 & 整体架构概览
-4. AI Epic生成技术架构
-5. Cost Breakdown功能技术原理
 
 </div>
 <div>
 
 ### 🚀 演示效果 (4分钟)
 
-6. Live Demo
-7. 功能完成度展示
+4. 功能完成度展示
+5. 在线网站
+6. 功能演示视频
 
-### 👥 团队与Q&A (1分钟)
+### 👥 团队与Q&A (6分钟)
 
-8. 团队分工
-9. Q&A
+7. 团队分工
+8. Q&A
 
 </div>
 </div>
@@ -115,8 +114,9 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
 | 项目管理 | SmartSheet 多平台 | 统一平台，一站式管理 | 平台统一 |
 | BRD 录入 | Excel 手动维护 | 系统结构化录入 | 数据结构化 |
 | **Epic 录入** | 人工逐条录入 | **🤖 AI 智能生成，PM 仅需 Review** | **效率提升** |
-| **工时估算** | 拍脑袋，Excel 手算 | **⚙️ 公式引擎自动计算** | **效率、一致性提升** |
+| **工时估算** | 拍脑袋，Excel 手算 | **⚙️ 公式引擎自动计算** | **效率提升、标准化** |
 | OGM 估算 | Excel 手工填写 | 表单化填写，体验友好 | 体验提升 |
+| 报表生成 | 透视表，样式简陋 | 实时生成，可视化报表 | 实时可视化 |
 
 </div>
 
@@ -134,11 +134,19 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
     <ul class="space-y-3 text-sm text-gray-700">
       <li class="flex items-start gap-2">
         <span class="text-purple-500 mt-0.5">●</span>
-        <span><span class="font-semibold text-purple-800">DeepSeek API</span>（JSON Mode）智能生成 Epic</span>
+        <span><span class="font-semibold text-purple-800">AI 生成需求</span>：DeepSeek API（JSON Mode），提升Epic生成效率</span>
       </li>
       <li class="flex items-start gap-2">
         <span class="text-purple-500 mt-0.5">●</span>
-        <span><span class="font-semibold text-purple-800">AI Coding 助手</span>：Cursor、Codex 提升研发效率</span>
+        <span><span class="font-semibold text-purple-800">AI Coding</span>：Cursor、Codex 提升研发效率</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="text-purple-500 mt-0.5">●</span>
+        <span><span class="font-semibold text-purple-800">AI PPT制作</span>：Cursor + Slidev，提升写PPT的效率</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="text-purple-500 mt-0.5">●</span>
+        <span><span class="font-semibold text-purple-800">AI 视频编辑</span>：Cursor + Remotion，提升视频编辑的效率</span>
       </li>
     </ul>
   </div>
@@ -177,6 +185,205 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
 </div>
 
 </div>
+</div>
+
+---
+
+# 🚀 功能完成度：已实现模块一览
+
+
+<div class="grid grid-cols-4 gap-3">
+
+<div class="border rounded-lg p-3 bg-green-50">
+  <div class="text-xl mb-1">✅</div>
+  <div class="font-bold text-sm">用户管理</div>
+  <div class="text-xs text-gray-600 mt-1">
+    - 登录认证<br>
+    - 用户 CRUD<br>
+    - 用户统计
+  </div>
+</div>
+
+<div class="border rounded-lg p-3 bg-green-50">
+  <div class="text-xl mb-1">✅</div>
+  <div class="font-bold text-sm">元数据管理</div>
+  <div class="text-xs text-gray-600 mt-1">
+    - Foundation Epic CRUD<br>
+    - 核心参数配置
+  </div>
+</div>
+
+<div class="border rounded-lg p-3 bg-green-50">
+  <div class="text-xl mb-1">✅</div>
+  <div class="font-bold text-sm">项目管理</div>
+  <div class="text-xs text-gray-600 mt-1">
+    - 项目信息 CRUD<br>
+    - 搜索/筛选/分页<br>
+    - 批量状态更新
+  </div>
+</div>
+
+<div class="border rounded-lg p-3 bg-green-50">
+  <div class="text-xl mb-1">✅</div>
+  <div class="font-bold text-sm">BRD & Epic</div>
+  <div class="text-xs text-gray-600 mt-1">
+    - BRD&Epic CRUD<br>
+    - AI 生成 Epic<br>
+    - dashboard
+  </div>
+</div>
+
+<div class="border rounded-lg p-3 bg-green-50">
+  <div class="text-xl mb-1">✅</div>
+  <div class="font-bold text-sm">Cost Breakdown</div>
+  <div class="text-xs text-gray-600 mt-1">
+    - 动态参数表单<br>
+    - 公式引擎解析<br>
+    - CRUD
+  </div>
+</div>
+
+<div class="border rounded-lg p-3 bg-green-50">
+  <div class="text-xl mb-1">✅</div>
+  <div class="font-bold text-sm">OGM 估算</div>
+  <div class="text-xs text-gray-600 mt-1">
+    - 工时自动汇总<br>
+    - 多维度统计<br>
+    - CRUD
+  </div>
+</div>
+
+<div class="border rounded-lg p-3 bg-green-50">
+  <div class="text-xl mb-1">✅</div>
+  <div class="font-bold text-sm">预算报表</div>
+  <div class="text-xs text-gray-600 mt-1">
+    - 可视化图表<br>
+    - BRD&EPIC Summary<br>
+    - Budget Summary
+  </div>
+</div>
+
+<div class="border rounded-lg p-3 bg-blue-50">
+  <div class="text-xl mb-1">⚙️</div>
+  <div class="font-bold text-sm">技术基座</div>
+  <div class="text-xs text-gray-600 mt-1">
+    - CI/CD 自动化<br>
+    - DataBase 集成<br>
+    - 云服务器部署集成
+  </div>
+</div>
+
+</div>
+
+<div class="mt-4 text-center">
+<span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-bold text-sm">
+  7 大业务模块 + 完整技术栈 · 100% 可运行 · 演示环境已部署
+</span>
+</div>
+
+---
+
+# 🎬 在线网站
+
+<div class="mt-10 flex justify-center">
+<div class="w-full max-w-4xl rounded-2xl bg-gradient-to-br from-blue-50 to-purple-50/60 ring-1 ring-blue-200 shadow-xl p-8">
+<div class="flex items-center justify-center gap-3 mb-6">
+<div class="text-5xl leading-none">🚀</div>
+<div class="text-3xl font-extrabold tracking-tight text-gray-900">PET 3.0 在线体验</div>
+</div>
+<div class="grid grid-cols-2 gap-10 items-start">
+<div class="space-y-4">
+<div class="text-sm text-gray-600">在线体验</div>
+<a class="block rounded-xl border border-blue-200 bg-white/80 hover:bg-white transition px-5 py-3 font-mono text-base text-blue-700 shadow-sm select-all break-all" href="https://pet30.vercel.app/" target="_blank" rel="noopener noreferrer">https://pet30.vercel.app/</a>
+<div class="rounded-xl border border-amber-200 bg-amber-50/70 px-4 py-3 text-sm text-amber-900 leading-snug">
+<div class="font-semibold">⚠️ 国内网络可能无法访问</div>
+<div class="text-xs opacity-80 mt-1">建议科学上网 / 切换网络环境后再试</div>
+</div>
+</div>
+<div class="flex flex-col items-center">
+<div class="text-sm text-gray-600 mb-3">扫码直达</div>
+<div class="w-28 h-28 rounded-lg shadow-md overflow-hidden">
+<img class="w-full h-full" alt="PET 3.0 在线演示二维码" src="./assets/pet30-demo-qr.png" />
+</div>
+<div class="text-xs text-gray-500 mt-2">手机浏览器打开更顺畅</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="mt-6 text-center text-gray-500 text-sm">💡 演示环境已部署，欢迎体验完整功能流程</div>
+
+---
+
+# 🎥 功能演示视频
+
+<div class="flex items-center justify-center h-full">
+<div class="text-center">
+<div class="text-6xl mb-6">🎬</div>
+<div class="text-2xl text-gray-400">演示视频区域</div>
+<div class="text-sm text-gray-400 mt-4">请在此处插入演示视频</div>
+</div>
+</div>
+
+---
+
+# 👥 团队分工
+
+<div class="grid grid-cols-4 gap-4 mt-6 text-center">
+
+<div class="border rounded-lg p-4">
+  <div class="text-3xl mb-2">👨‍🎨</div>
+  <div class="font-bold">Jeff Bu</div>
+  <div class="text-sm text-gray-500">Delivery Manager</div>
+  <div class="text-xs mt-2 text-purple-600">跨部门沟通/需求管理/整体进度把控</div>
+</div>
+
+<div class="border rounded-lg p-4">
+  <div class="text-3xl mb-2">👨‍💻</div>
+  <div class="font-bold">Dong Wang</div>
+  <div class="text-sm text-gray-500">Tech Lead</div>
+  <div class="text-xs mt-2 text-purple-600">架构设计 / Cost Breakdown模块开发</div>
+</div>
+
+<div class="border rounded-lg p-4">
+  <div class="text-3xl mb-2">👩‍💻</div>
+  <div class="font-bold">Maggie Zhu</div>
+  <div class="text-sm text-gray-500">Full Stack</div>
+  <div class="text-xs mt-2 text-purple-600">项目管理、Opex、报表等模块开发</div>
+</div>
+
+<div class="border rounded-lg p-4">
+  <div class="text-3xl mb-2">👩‍💻</div>
+  <div class="font-bold">Summer Zhang</div>
+  <div class="text-sm text-gray-500">Scrum Master</div>
+  <div class="text-xs mt-2 text-purple-600">组织会议、跨部门沟通</div>
+</div>
+
+<div class="border rounded-lg p-4">
+  <div class="text-3xl mb-2">👨‍🎨</div>
+  <div class="font-bold">Groot Zhang</div>
+  <div class="text-sm text-gray-500">Technical support</div>
+  <div class="text-xs mt-2 text-purple-600">提供专业建议</div>
+</div>
+
+</div>
+
+---
+
+# 🙏 谢谢聆听
+
+<div class="text-center mt-16">
+
+<div class="text-6xl mb-8">🤖 + 📊 = 🚀</div>
+
+<div class="text-2xl font-bold mb-4">用结构化数据，让项目估算标准快捷</div>
+
+<div class="text-lg text-gray-500 mb-8">PET 3.0 - 智能项目估算平台</div>
+
+<div class="inline-block bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-4 rounded-full text-xl font-bold">
+  Q & A 环节
+</div>
+
 </div>
 
 ---
@@ -346,188 +553,14 @@ epic_estimations (
 </div>
 </div>
 
----
-
-# 🚀 功能完成度：已实现模块一览
-
-
-<div class="grid grid-cols-4 gap-3">
-
-<div class="border rounded-lg p-3 bg-green-50">
-  <div class="text-xl mb-1">✅</div>
-  <div class="font-bold text-sm">用户管理</div>
-  <div class="text-xs text-gray-600 mt-1">
-    - 登录认证<br>
-    - 用户 CRUD<br>
-    - 用户统计
-  </div>
-</div>
-
-<div class="border rounded-lg p-3 bg-green-50">
-  <div class="text-xl mb-1">✅</div>
-  <div class="font-bold text-sm">元数据管理</div>
-  <div class="text-xs text-gray-600 mt-1">
-    - Foundation Epic CRUD<br>
-    - 核心参数配置
-  </div>
-</div>
-
-<div class="border rounded-lg p-3 bg-green-50">
-  <div class="text-xl mb-1">✅</div>
-  <div class="font-bold text-sm">项目管理</div>
-  <div class="text-xs text-gray-600 mt-1">
-    - 项目信息 CRUD<br>
-    - 搜索/筛选/分页<br>
-    - 批量状态更新
-  </div>
-</div>
-
-<div class="border rounded-lg p-3 bg-green-50">
-  <div class="text-xl mb-1">✅</div>
-  <div class="font-bold text-sm">BRD & Epic</div>
-  <div class="text-xs text-gray-600 mt-1">
-    - BRD&Epic CRUD<br>
-    - AI 生成 Epic<br>
-    - dashboard
-  </div>
-</div>
-
-<div class="border rounded-lg p-3 bg-green-50">
-  <div class="text-xl mb-1">✅</div>
-  <div class="font-bold text-sm">Cost Breakdown</div>
-  <div class="text-xs text-gray-600 mt-1">
-    - 动态参数表单<br>
-    - 公式引擎解析<br>
-    - CRUD
-  </div>
-</div>
-
-<div class="border rounded-lg p-3 bg-green-50">
-  <div class="text-xl mb-1">✅</div>
-  <div class="font-bold text-sm">OGM 估算</div>
-  <div class="text-xs text-gray-600 mt-1">
-    - 工时自动汇总<br>
-    - 多维度统计<br>
-    - CRUD
-  </div>
-</div>
-
-<div class="border rounded-lg p-3 bg-green-50">
-  <div class="text-xl mb-1">✅</div>
-  <div class="font-bold text-sm">预算报表</div>
-  <div class="text-xs text-gray-600 mt-1">
-    - 可视化图表<br>
-    - BRD&EPIC Summary<br>
-    - Budget Summary
-  </div>
-</div>
-
-<div class="border rounded-lg p-3 bg-blue-50">
-  <div class="text-xl mb-1">⚙️</div>
-  <div class="font-bold text-sm">技术基座</div>
-  <div class="text-xs text-gray-600 mt-1">
-    - CI/CD 自动化<br>
-    - DataBase 集成<br>
-    - 云服务器部署集成
-  </div>
-</div>
-
-</div>
-
-<div class="mt-4 text-center">
-<span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-bold text-sm">
-  7 大业务模块 + 完整技术栈 · 100% 可运行 · 演示环境已部署
-</span>
-</div>
-
----
-
-# 🎬 Live Demo
-
-<div class="flex flex-col items-center justify-center mt-6">
-
-<div class="border-4 border-blue-500 rounded-2xl p-8 bg-gradient-to-br from-blue-50 to-purple-50 shadow-lg">
-  <div class="text-6xl text-center mb-4">🚀</div>
-  <div class="text-2xl font-bold text-center text-gray-800 mb-4">PET 3.0 在线演示</div>
-  <div class="text-center">
-    <code class="bg-white px-4 py-2 rounded-lg text-lg font-mono text-blue-600 border">
-      https://pet30.vercel.app/
-    </code>
-  </div>
-</div>
-
-<div class="mt-6 text-center text-gray-500 text-sm">
-  💡 演示环境已部署，欢迎体验完整功能流程
-</div>
-
-</div>
-
----
-
-# 👥 团队分工
-
-<div class="grid grid-cols-4 gap-4 mt-6 text-center">
-
-<div class="border rounded-lg p-4">
-  <div class="text-3xl mb-2">👨‍🎨</div>
-  <div class="font-bold">Jeff Bu</div>
-  <div class="text-sm text-gray-500">Delivery Manager</div>
-  <div class="text-xs mt-2 text-purple-600">跨部门沟通/需求管理/整体进度把控</div>
-</div>
-
-<div class="border rounded-lg p-4">
-  <div class="text-3xl mb-2">👨‍💻</div>
-  <div class="font-bold">Dong Wang</div>
-  <div class="text-sm text-gray-500">Tech Lead</div>
-  <div class="text-xs mt-2 text-purple-600">架构设计 / Cost Breakdown模块开发</div>
-</div>
-
-<div class="border rounded-lg p-4">
-  <div class="text-3xl mb-2">👩‍💻</div>
-  <div class="font-bold">Maggie Zhu</div>
-  <div class="text-sm text-gray-500">Full Stack</div>
-  <div class="text-xs mt-2 text-purple-600">项目管理、Opex、报表等模块开发</div>
-</div>
-
-<div class="border rounded-lg p-4">
-  <div class="text-3xl mb-2">👩‍💻</div>
-  <div class="font-bold">Summer Zhang</div>
-  <div class="text-sm text-gray-500">Scrum Master</div>
-  <div class="text-xs mt-2 text-purple-600">组织会议、跨部门沟通</div>
-</div>
-
-<div class="border rounded-lg p-4">
-  <div class="text-3xl mb-2">👨‍🎨</div>
-  <div class="font-bold">Groot Zhang</div>
-  <div class="text-sm text-gray-500">Technical support</div>
-  <div class="text-xs mt-2 text-purple-600">提供专业建议</div>
-</div>
-
-</div>
-
----
-
-# 🙏 谢谢聆听
-
-<div class="text-center mt-16">
-
-<div class="text-6xl mb-8">🤖 + 📊 = 🚀</div>
-
-<div class="text-2xl font-bold mb-4">用结构化数据，让项目估算标准快捷</div>
-
-<div class="text-lg text-gray-500 mb-8">PET 3.0 - 智能项目估算平台</div>
-
-<div class="inline-block bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-4 rounded-full text-xl font-bold">
-  Q & A 环节
-</div>
-
-</div>
-
 <!--
 准备好回答：
-1. AI 技术具体怎么实现的？
+1. cost breakdown那块的功能Excel也能实现，web版本有啥优势呢？
+答：可协作，统一的输入校验，可追溯的计算过程，性能好，可维护性好。
 2. 如后续变为一个正式的项目，是多大规模的项目呢？
 答：正式做项目的话，需要多个角色配合(PM,qa,gqe,se,l2等)，如使用现有技术栈，在现有的代码仓库上开发，可以节省开发的工作量。同时需求没有大的变动的情况下，RC项目可以cover。如果需要完全符合我们公司的技术栈要求，需要重写前后端，代码无法复用，small Car规模的项目可以cover。
-3. 与现有系统如何集成？
+3. ai生成Epic和直接掉ai 接口有啥区别？
+答：核心亮点在于 强约束输出结构 + 带层级上下文生成 + 结果可控导入到需求树（并受数据库规则兜底）。固定 schema（字段/枚举/数量/长度）：系统 Prompt 把 Epic 的字段（title/description/priority/hours/keyFeatures）和范围约束写死了，模型输出天然更“像表格数据”，而不是散文。由于当前我没有导入真实的I pick，未来的话，我们可以用真实的其他项目的Epic进行训练。生成IP卡的时候，可以通过这种相似性检索，找到其项目类似的这种IP卡，然后以便发给II让AI来参考。这样我们就可以生成更加准确的IP卡。
+
 4. 上线计划和推广策略？
 -->
