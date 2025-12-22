@@ -54,7 +54,7 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
 | 维度 | 🔥 传统痛点 | ✅ PET 3.0 方案 |
 | :--- | :--- | :--- |
 | **效率** | Epic 拆分 xx 天，工时计算靠手算 | AI 生成 Epic **分钟级**，公式引擎**秒级计算** |
-| **估算一致性** | 拍脑袋估算，估算偏差大 | 标准化模板 + 统一费率，口径一致 |
+| **估算标准** | 拍脑袋估算，估算偏差大 | 标准化模板 + 统一费率，口径一致 |
 | **解释成本** | "50人天怎么来的？" —— 没人说得清 | 公式引擎逐行计算，**每一步可解释** |
 | **数据管理** | Excel/邮件/Smartsheet 分散，历史难追溯 | 统一平台，项目全生命周期可追踪 |
 
@@ -90,7 +90,7 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
       <div class="px-4 py-2 border-2 border-purple-500 rounded bg-purple-500 text-white font-bold">Epic录入</div>
       <div class="w-0.5 h-4 border-l-2 border-dashed border-purple-400"></div>
       <div class="flex items-center gap-1">
-        <div class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-bold border border-purple-300">🤖 AI 智能生成</div>
+        <div class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-bold border border-purple-300">🤖 AI 生成Epic</div>
       </div>
     </div>
     <span class="text-gray-400 mt-3">→</span>
@@ -98,7 +98,7 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
     <div class="flex flex-col items-center">
       <div class="px-4 py-2 border-2 border-red-400 rounded bg-red-400 text-white font-bold">工时估算</div>
       <div class="w-0.5 h-4 border-l-2 border-dashed border-red-400"></div>
-      <div class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold border border-red-300">⚙️ 公式引擎自动计算</div>
+      <div class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold border border-red-300">⚙️ 公式引擎自动计算工时</div>
     </div>
     <span class="text-gray-400 mt-3">→</span>
     <div class="px-3 py-2 border border-gray-300 rounded bg-white">OGM估算</div>
@@ -368,6 +368,16 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
 
 </div>
 
+<div class="mt-8 pt-6 border-t border-gray-200">
+  <div class="text-center">
+    <div class="text-lg font-semibold text-purple-600 mb-3">🙏 特此感谢</div>
+    <div class="text-base text-gray-700">
+      <span class="font-medium">Cecilia Guo</span>、<span class="font-medium">Chunyang Liu</span>、<span class="font-medium">Lynne Yang</span>
+    </div>
+    <div class="text-sm text-gray-500 mt-2">为本项目提供的专业建议</div>
+  </div>
+</div>
+
 ---
 
 # 🙏 谢谢聆听
@@ -561,6 +571,7 @@ epic_estimations (
 答：正式做项目的话，需要多个角色配合(PM,qa,gqe,se,l2等)，如使用现有技术栈，在现有的代码仓库上开发，可以节省开发的工作量。同时需求没有大的变动的情况下，RC项目可以cover。如果需要完全符合我们公司的技术栈要求，需要重写前后端，代码无法复用，small Car规模的项目可以cover。
 3. ai生成Epic和直接掉ai 接口有啥区别？
 答：核心亮点在于 强约束输出结构 + 带层级上下文生成 + 结果可控导入到需求树（并受数据库规则兜底）。固定 schema（字段/枚举/数量/长度）：系统 Prompt 把 Epic 的字段（title/description/priority/hours/keyFeatures）和范围约束写死了，模型输出天然更“像表格数据”，而不是散文。由于当前我没有导入真实的I pick，未来的话，我们可以用真实的其他项目的Epic进行训练。生成IP卡的时候，可以通过这种相似性检索，找到其项目类似的这种IP卡，然后以便发给II让AI来参考。这样我们就可以生成更加准确的IP卡。
+根据现有规范生成guideline，可以让他准确性更高。给他好的Epic和brd，让他自己学习。并加入对话机制，可以根据上下文去调整Epic内容。
 
 4. 上线计划和推广策略？
 -->
