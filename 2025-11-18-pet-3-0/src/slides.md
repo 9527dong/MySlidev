@@ -10,7 +10,7 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
 
 <div class="mt-6 text-lg text-blue-600 font-semibold">核心价值：让每一次项目估算都做到标准化、高效率</div>
 
-<div class="mt-8 text-sm text-gray-500">PET 团队 · Dong Wang</div>
+<div class="mt-8 text-sm text-gray-500">智估先锋队 (Smart Estimation Vanguard) · Dong Wang</div>
 
 ---
 
@@ -333,35 +333,35 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
 
 <div class="border rounded-lg p-3">
   <div class="text-2xl mb-1">👨‍🎨</div>
-  <div class="font-bold text-sm">Jeff Bu</div>
+  <div class="font-bold text-sm">Jeff Bu(卜昌荣)</div>
   <div class="text-xs text-gray-500">Delivery Manager</div>
   <div class="text-xs mt-1 text-purple-600">跨部门沟通/需求管理/整体进度把控</div>
 </div>
 
 <div class="border rounded-lg p-3">
   <div class="text-2xl mb-1">👨‍💻</div>
-  <div class="font-bold text-sm">Dong Wang</div>
+  <div class="font-bold text-sm">Dong Wang(王栋)</div>
   <div class="text-xs text-gray-500">Tech Lead</div>
   <div class="text-xs mt-1 text-purple-600">架构设计 / Cost Breakdown模块开发</div>
 </div>
 
 <div class="border rounded-lg p-3">
   <div class="text-2xl mb-1">👩‍💻</div>
-  <div class="font-bold text-sm">Maggie Zhu</div>
+  <div class="font-bold text-sm">Maggie Zhu(朱玥)</div>
   <div class="text-xs text-gray-500">Full Stack</div>
   <div class="text-xs mt-1 text-purple-600">项目管理、Opex、报表等模块开发</div>
 </div>
 
 <div class="border rounded-lg p-3">
   <div class="text-2xl mb-1">👩‍💻</div>
-  <div class="font-bold text-sm">Summer Zhang</div>
+  <div class="font-bold text-sm">Summer Zhang(张夏倩)</div>
   <div class="text-xs text-gray-500">Scrum Master</div>
   <div class="text-xs mt-1 text-purple-600">组织会议、跨部门沟通</div>
 </div>
 
 <div class="border rounded-lg p-3">
   <div class="text-2xl mb-1">👨‍🎨</div>
-  <div class="font-bold text-sm">Groot Zhang</div>
+  <div class="font-bold text-sm">Groot Zhang(涨潮)</div>
   <div class="text-xs text-gray-500">Technical support</div>
   <div class="text-xs mt-1 text-purple-600">提供技术支持</div>
 </div>
