@@ -98,7 +98,7 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
     <div class="flex flex-col items-center">
       <div class="px-4 py-2 border-2 border-red-400 rounded bg-red-400 text-white font-bold">工时估算</div>
       <div class="w-0.5 h-4 border-l-2 border-dashed border-red-400"></div>
-      <div class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold border border-red-300">⚙️ 公式引擎自动计算工时</div>
+      <div class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold border border-red-300">⚙️ 公式引擎自动计算</div>
     </div>
     <span class="text-gray-400 mt-3">→</span>
     <div class="px-3 py-2 border border-gray-300 rounded bg-white">OGM估算</div>
@@ -329,52 +329,52 @@ subtitle: 用结构化数据 + AI 重塑项目估算体验
 
 # 👥 团队分工
 
-<div class="grid grid-cols-4 gap-4 mt-6 text-center">
+<div class="grid grid-cols-3 gap-3 mt-4 text-center">
 
-<div class="border rounded-lg p-4">
-  <div class="text-3xl mb-2">👨‍🎨</div>
-  <div class="font-bold">Jeff Bu</div>
-  <div class="text-sm text-gray-500">Delivery Manager</div>
-  <div class="text-xs mt-2 text-purple-600">跨部门沟通/需求管理/整体进度把控</div>
+<div class="border rounded-lg p-3">
+  <div class="text-2xl mb-1">👨‍🎨</div>
+  <div class="font-bold text-sm">Jeff Bu</div>
+  <div class="text-xs text-gray-500">Delivery Manager</div>
+  <div class="text-xs mt-1 text-purple-600">跨部门沟通/需求管理/整体进度把控</div>
 </div>
 
-<div class="border rounded-lg p-4">
-  <div class="text-3xl mb-2">👨‍💻</div>
-  <div class="font-bold">Dong Wang</div>
-  <div class="text-sm text-gray-500">Tech Lead</div>
-  <div class="text-xs mt-2 text-purple-600">架构设计 / Cost Breakdown模块开发</div>
+<div class="border rounded-lg p-3">
+  <div class="text-2xl mb-1">👨‍💻</div>
+  <div class="font-bold text-sm">Dong Wang</div>
+  <div class="text-xs text-gray-500">Tech Lead</div>
+  <div class="text-xs mt-1 text-purple-600">架构设计 / Cost Breakdown模块开发</div>
 </div>
 
-<div class="border rounded-lg p-4">
-  <div class="text-3xl mb-2">👩‍💻</div>
-  <div class="font-bold">Maggie Zhu</div>
-  <div class="text-sm text-gray-500">Full Stack</div>
-  <div class="text-xs mt-2 text-purple-600">项目管理、Opex、报表等模块开发</div>
+<div class="border rounded-lg p-3">
+  <div class="text-2xl mb-1">👩‍💻</div>
+  <div class="font-bold text-sm">Maggie Zhu</div>
+  <div class="text-xs text-gray-500">Full Stack</div>
+  <div class="text-xs mt-1 text-purple-600">项目管理、Opex、报表等模块开发</div>
 </div>
 
-<div class="border rounded-lg p-4">
-  <div class="text-3xl mb-2">👩‍💻</div>
-  <div class="font-bold">Summer Zhang</div>
-  <div class="text-sm text-gray-500">Scrum Master</div>
-  <div class="text-xs mt-2 text-purple-600">组织会议、跨部门沟通</div>
+<div class="border rounded-lg p-3">
+  <div class="text-2xl mb-1">👩‍💻</div>
+  <div class="font-bold text-sm">Summer Zhang</div>
+  <div class="text-xs text-gray-500">Scrum Master</div>
+  <div class="text-xs mt-1 text-purple-600">组织会议、跨部门沟通</div>
 </div>
 
-<div class="border rounded-lg p-4">
-  <div class="text-3xl mb-2">👨‍🎨</div>
-  <div class="font-bold">Groot Zhang</div>
-  <div class="text-sm text-gray-500">Technical support</div>
-  <div class="text-xs mt-2 text-purple-600">提供专业建议</div>
+<div class="border rounded-lg p-3">
+  <div class="text-2xl mb-1">👨‍🎨</div>
+  <div class="font-bold text-sm">Groot Zhang</div>
+  <div class="text-xs text-gray-500">Technical support</div>
+  <div class="text-xs mt-1 text-purple-600">提供技术支持</div>
 </div>
 
 </div>
 
-<div class="mt-8 pt-6 border-t border-gray-200">
+<div class="mt-4 pt-3 border-t border-gray-200">
   <div class="text-center">
-    <div class="text-lg font-semibold text-purple-600 mb-3">🙏 特此感谢</div>
-    <div class="text-base text-gray-700">
-      <span class="font-medium">Cecilia Guo</span>、<span class="font-medium">Chunyang Liu</span>、<span class="font-medium">Lynne Yang</span>
+    <div class="text-base font-semibold text-purple-600 mb-2">🙏 特此感谢</div>
+    <div class="text-sm text-gray-700">
+      <span class="font-medium">Cecilia Guo</span>、<span class="font-medium">Chunyang Liu</span>
     </div>
-    <div class="text-sm text-gray-500 mt-2">为本项目提供的专业建议</div>
+    <div class="text-xs text-gray-500 mt-1">为本项目提供的专业建议</div>
   </div>
 </div>
 
