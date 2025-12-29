@@ -49,7 +49,7 @@ subtitle: Reshaping Project Estimation Experience with Structured Data + AI
 
 # 🎯 Why PET 3.0?
 
-<div class="mt-4">
+<div class="mt-3" style="font-size: 0.75rem;">
 
 | Dimension | 🔥 Traditional Pain Points | ✅ PET 3.0 Solution |
 | :--- | :--- | :--- |
@@ -60,15 +60,15 @@ subtitle: Reshaping Project Estimation Experience with Structured Data + AI
 
 </div>
 
-<div class="grid grid-cols-3 gap-4 mt-8 text-center">
-  <div class="bg-red-50 border border-red-200 rounded-lg p-4">
-    <div class="text-red-500 text-3xl font-bold">Before</div>
-    <div class="text-gray-600 mt-2">Black box · Inefficient · Uncontrollable</div>
+<div class="grid grid-cols-3 gap-3 mt-6 text-center">
+  <div class="bg-red-50 border border-red-200 rounded-lg p-3">
+    <div class="text-red-500 text-2xl font-bold">Before</div>
+    <div class="text-gray-600 mt-1 text-xs">Black box · Inefficient · Uncontrollable</div>
   </div>
-  <div class="text-4xl flex items-center justify-center text-blue-500">→</div>
-  <div class="bg-green-50 border border-green-200 rounded-lg p-4">
-    <div class="text-green-500 text-3xl font-bold">After</div>
-    <div class="text-gray-600 mt-2">Transparent · Efficient · Explainable</div>
+  <div class="text-3xl flex items-center justify-center text-blue-500">→</div>
+  <div class="bg-green-50 border border-green-200 rounded-lg p-3">
+    <div class="text-green-500 text-2xl font-bold">After</div>
+    <div class="text-gray-600 mt-1 text-xs">Transparent · Efficient · Explainable</div>
   </div>
 </div>
 
